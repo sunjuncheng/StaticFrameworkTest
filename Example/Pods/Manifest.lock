@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - StaticFrameworkTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - StaticFrameworkTest (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  StaticFrameworkTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  StaticFrameworkTest: 096efb22ddee9493e970d8ff210c15c8e7cf463d
+
+PODFILE CHECKSUM: 2f6b5d46c49b013716cabd3ec0e5f75466f3df0a
+
+COCOAPODS: 1.5.3
