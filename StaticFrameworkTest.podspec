@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'StaticFrameworkTest'
-  s.version          = '0.1.4'
-  s.summary          = 'A short description of StaticFrameworkTest.'
+  s.version          = '0.1.5'
+  s.summary          = 'The APP is a very interesting APP.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'test'
+  s.description      = 'The APP is a very interesting APP'
 
   s.homepage         = 'https://github.com/sunjuncheng/StaticFrameworkTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'StaticFrameworkTest/Classes/**/*'
+  s.source_files = 'StaticFrameworkTest/Classes/*'
   
   # s.resource_bundles = {
   #   'StaticFrameworkTest' => ['StaticFrameworkTest/Assets/*.png']

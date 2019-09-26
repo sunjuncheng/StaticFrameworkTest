@@ -1,9 +1,11 @@
+source 'https://github.com/sunjuncheng/StaticFrameworkTestSpecs.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'StaticFrameworkTest_Example' do
-  pod 'StaticFrameworkTest', :path => '../'
+#  pod 'StaticFrameworkTest', :path => '../'
+pod 'StaticFrameworkTest'
 
   target 'StaticFrameworkTest_Tests' do
     inherit! :search_paths
